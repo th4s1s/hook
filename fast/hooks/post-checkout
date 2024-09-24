@@ -1,0 +1,2 @@
+#!/bin/bash
+powershell.exe -Command "Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('You have been hacked', 'Warning', 'OK', 'Warning')"
